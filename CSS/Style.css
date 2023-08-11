@@ -285,7 +285,7 @@
   .fondo .main_index {
     grid: mainindex;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 100%;
     grid-template-rows: 100px 1700px;
     grid-template-areas: "navbar" "contenedor";
     margin: 0;
@@ -306,7 +306,7 @@
   .fondo .main_index .container_index {
     grid-area: contenedor;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 100%;
     grid-template-rows: 200px 700px 300px 500px;
     grid-template-areas: "carrusel" "contenidoindex" "formulario" "banners";
   }
@@ -319,7 +319,7 @@
   .fondo .main_index .container_index .contenidoindex {
     grid-area: contenidoindex;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 100%;
     grid-template-rows: 150px 250px 300px;
     grid-template-areas: "tituloindex" "textoindex" "youtube";
     width: auto;
