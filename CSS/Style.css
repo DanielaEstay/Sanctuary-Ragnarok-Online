@@ -277,11 +277,10 @@
     background-image: url(/img/fondomobile.png);
   }
   .fondo .logo {
-    border: 1px solid blue;
     margin: 0;
   }
   .fondo .logo .imglogo {
-    width: 70%;
+    width: 80%;
     margin-left: 15%;
     padding: 0;
     justify-content: center;
@@ -314,13 +313,11 @@
     grid-template-areas: "carrusel" "contenidoindex" "formulario" "banners";
   }
   .fondo .main_index .container_index .carousel {
-    border: 1px solid blue;
     grid-area: carrusel;
     margin: 0;
     margin-left: 5%;
   }
   .fondo .main_index .container_index .contenidoindex {
-    border: 1px solid blue;
     grid-area: contenidoindex;
     display: grid;
     grid-template-columns: auto;
@@ -340,17 +337,14 @@
   .fondo .main_index .container_index .contenidoindex .bienvenida {
     grid-area: textoindex;
     padding: 0;
-    border: 1px solid blue;
   }
   .fondo .main_index .container_index .formulario {
     grid-area: formulario;
-    border: 1px solid blue;
     height: 200px;
     margin-top: 10%;
     margin-bottom: 15%;
   }
   .fondo .main_index .container_index .banners {
-    border: 1px solid blue;
     grid-area: banners;
     width: 60%;
     margin-left: 15%;
