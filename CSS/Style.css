@@ -277,6 +277,7 @@
     background-image: url(/img/fondomobile.png);
   }
   .fondo .logo {
+    border: 1px solid blue;
     margin: 0;
   }
   .fondo .logo .imglogo {
