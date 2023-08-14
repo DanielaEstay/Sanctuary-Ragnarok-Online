@@ -25,10 +25,12 @@
 .fondo .main_index .navbar .navbar-nav .nav-item .nav-link {
   text-shadow: 0 0 3px rgb(138, 0, 218);
   color: white;
+  font-size: x-large;
 }
 .fondo .main_index .navbar .navbar-nav .nav-item .dropdown-item {
   text-shadow: 0 0 3px rgb(83, 14, 126);
   color: white;
+  background-color: rgba(60, 147, 158, 0.466);
 }
 .fondo .main_index .container_index {
   grid-area: container_index;
@@ -294,35 +296,39 @@
   .fondo .main_index .navbar {
     grid-area: navbar;
     margin: 0;
-    padding: 30px;
+    padding: 0;
     background: rgba(116, 235, 213, 0.5607843137); /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, rgba(172, 182, 229, 0.6352941176), rgba(116, 235, 213, 0.5960784314)); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, rgba(172, 182, 229, 0.6235294118), rgba(116, 221, 235, 0.5333333333)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
   .fondo .main_index .navbar .navbar-var .navbar-item .nav-link {
     padding: 0;
-    font-size: xxx-small;
   }
   .fondo .main_index .container_index {
     grid-area: contenedor;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 1fr 3fr 1fr 2fr;
+    grid-template-rows: 150px 700px 200px 400px;
     grid-template-areas: "carrusel" "contenidoindex" "formulario" "banners";
   }
   .fondo .main_index .container_index .carousel {
+    border: 1px solid blue;
     grid-area: carrusel;
     margin: 0;
-    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
     width: 100%;
   }
   .fondo .main_index .container_index .contenidoindex {
+    border: 1px solid blue;
     grid-area: contenidoindex;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 150px 250px 300px;
     grid-template-areas: "tituloindex" "textoindex" "youtube";
     width: auto;
+    border: 1px solid blue;
   }
   .fondo .main_index .container_index .contenidoindex .youtube {
     grid-area: youtube;
@@ -335,16 +341,22 @@
   }
   .fondo .main_index .container_index .contenidoindex .bienvenida {
     grid-area: textoindex;
+    padding: 0;
+    border: 1px solid blue;
   }
   .fondo .main_index .container_index .formulario {
     grid-area: formulario;
     width: 300px;
-    margin-left: 130px;
+    margin-left: 100px;
+    height: 220px;
+    margin-bottom: 50px;
+    border: 1px solid blue;
   }
   .fondo .main_index .container_index .banners {
+    border: 1px solid blue;
     grid-area: banners;
-    width: fit-content;
-    margin-left: 100px;
+    margin-left: 20px;
+    margin-top: 40px;
   }
   .fondo .footer {
     display: flex;
