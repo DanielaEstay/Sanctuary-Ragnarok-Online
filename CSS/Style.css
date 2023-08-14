@@ -280,15 +280,15 @@
     margin: 0;
   }
   .fondo .logo .imglogo {
-    width: 100%;
+    width: 70%;
     margin: 0;
     padding: 0;
   }
   .fondo .main_index {
     grid: mainindex;
     display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 100px 1700px;
+    grid-template-columns: auto;
+    grid-template-rows: 100px 1800px;
     grid-template-areas: "navbar" "contenedor";
     margin: 0;
     padding: 0;
@@ -307,7 +307,7 @@
   .fondo .main_index .container_index {
     grid-area: contenedor;
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: auto;
     grid-template-rows: 150px 700px 200px 400px;
     grid-template-areas: "carrusel" "contenidoindex" "formulario" "banners";
   }
@@ -315,26 +315,19 @@
     border: 1px solid blue;
     grid-area: carrusel;
     margin: 0;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 20px;
-    width: 100%;
   }
   .fondo .main_index .container_index .contenidoindex {
     border: 1px solid blue;
     grid-area: contenidoindex;
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: auto;
     grid-template-rows: 150px 250px 300px;
     grid-template-areas: "tituloindex" "textoindex" "youtube";
-    width: auto;
     border: 1px solid blue;
   }
   .fondo .main_index .container_index .contenidoindex .youtube {
     grid-area: youtube;
-    padding: 20px;
     margin: 0;
-    margin-left: 30px;
   }
   .fondo .main_index .container_index .contenidoindex .tituloindex {
     grid-area: tituloindex;
@@ -346,17 +339,12 @@
   }
   .fondo .main_index .container_index .formulario {
     grid-area: formulario;
-    width: 300px;
-    margin-left: 100px;
-    height: 220px;
-    margin-bottom: 50px;
     border: 1px solid blue;
   }
   .fondo .main_index .container_index .banners {
     border: 1px solid blue;
     grid-area: banners;
-    margin-left: 20px;
-    margin-top: 40px;
+    width: 60%;
   }
   .fondo .footer {
     display: flex;
