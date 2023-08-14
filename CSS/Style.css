@@ -279,6 +279,7 @@
   .fondo .logo {
     border: 1px solid blue;
     margin: 0;
+    align-items: center;
   }
   .fondo .logo .imglogo {
     width: 70%;
