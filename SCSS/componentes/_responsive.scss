@@ -7,8 +7,8 @@
             border: 1px solid blue;
             margin: 0;
             .imglogo{
-                width: 90%;
-                margin: 0;
+                width: 70%;
+                margin-left: 15%;
                 padding: 0;
                 justify-content: center;
             }
@@ -46,18 +46,21 @@
                     border: 1px solid blue;
                     grid-area: carrusel;
                     margin: 0;
+                    margin-left: 5%;
                 }
                 .contenidoindex{
                     border: 1px solid blue;
                     grid-area: contenidoindex;
                     display: grid;
                     grid-template-columns: auto;
-                    grid-template-rows: 150px 250px 300px;
+                    grid-template-rows: 150px 250px 400px;
                     grid-template-areas: "tituloindex" "textoindex" "youtube";
-                    border: 1px solid blue;
                     .youtube{
                         grid-area: youtube;
                         margin: 0;
+                        width: 80%;
+                        height: 70%;
+                        margin-left: 10%;
                     }
                     .tituloindex{
                         grid-area: tituloindex;
@@ -71,11 +74,16 @@
                 .formulario{
                     grid-area: formulario;
                     border: 1px solid blue;
+                    height: 200px;
+                    margin-top: 10%;
+                    margin-bottom: 15%;
                 }
                 .banners{
                     border: 1px solid blue;
                     grid-area: banners;
                     width: 60%;
+                    margin-left: 15%;
+                    margin-top: 15%;
                 }
             }
         }
@@ -137,12 +145,14 @@
         }
         .tablainfo{
             padding: 0;
-            margin-left: 30px;
+            margin: 0;
+            margin-left: 1%;
             width: 500px;
         }
     }
     .contenidostaff{
         grid-area: contenidoindex;
         overflow: auto;
+        margin-bottom: 25%;
     }
 }
