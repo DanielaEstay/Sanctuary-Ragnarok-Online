@@ -6,11 +6,11 @@
         .logo{
             border: 1px solid blue;
             margin: 0;
-            align-items: center;
             .imglogo{
-                width: 70%;
+                width: 100%;
                 margin: 0;
                 padding: 0;
+                justify-content: center;
             }
         }
         .main_index{
